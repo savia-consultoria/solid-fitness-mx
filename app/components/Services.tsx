@@ -93,7 +93,7 @@ export default function Services() {
               Lo que hacemos
             </span>
             <h2 className="heading-display mt-5 text-balance text-4xl text-ink sm:text-5xl lg:text-6xl">
-              Todo bajo un mismo techo.
+              Todo bajo un mismo techo
               <span className="text-flame">.</span>
             </h2>
             <p className="mt-5 text-base text-ink/70 sm:text-lg">
