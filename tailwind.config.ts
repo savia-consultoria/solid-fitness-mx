@@ -13,10 +13,10 @@ const config: Config = {
           600: "#3A3A55",
         },
         flame: {
-          DEFAULT: "#E94560",
-          600: "#D63350",
-          500: "#E94560",
-          400: "#FF6B82",
+          DEFAULT: "#39E03A",
+          600: "#27C328",
+          500: "#39E03A",
+          400: "#6FF36F",
         },
         bone: {
           DEFAULT: "#F5F5F5",
@@ -29,12 +29,12 @@ const config: Config = {
         sans: ["var(--font-dmsans)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        flame: "0 20px 60px -15px rgba(233, 69, 96, 0.55)",
+        flame: "0 20px 60px -15px rgba(57, 224, 58, 0.55)",
         ink: "0 30px 80px -25px rgba(26, 26, 46, 0.45)",
       },
       backgroundImage: {
         "grid-flame":
-          "linear-gradient(135deg, rgba(233,69,96,0.15) 0%, rgba(26,26,46,0) 50%)",
+          "linear-gradient(135deg, rgba(57,224,58,0.15) 0%, rgba(26,26,46,0) 50%)",
         noise:
           "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0)",
       },

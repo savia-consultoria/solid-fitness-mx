@@ -1,25 +1,25 @@
 type Props = { variant?: "light" | "dark"; className?: string };
 
 export default function Logo({ variant = "dark", className = "" }: Props) {
-  const ink = variant === "light" ? "#F5F5F5" : "#1A1A2E";
+  const textColor = variant === "light" ? "text-bone" : "text-ink";
+  const subtleColor = variant === "light" ? "text-bone/70" : "text-ink/65";
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
-      <span className="relative grid h-10 w-10 place-items-center rounded-xl bg-flame shadow-flame">
-        <span className="absolute inset-1 rounded-lg bg-ink" />
-        <svg
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-          className="relative h-5 w-5 fill-flame"
-        >
-          <path d="M5 7h2v10H5zM17 7h2v10h-2zM8 11h8v2H8zM3 9h1v6H3zM20 9h1v6h-1z" />
-        </svg>
-      </span>
+      <svg
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+        className="h-9 w-9 fill-flame"
+      >
+        <path d="M7 7 L24 7 L16 15 L7 15 A4 4 0 0 0 7 7 Z" />
+        <path d="M18 17 L25 17 A4 4 0 0 1 25 25 L10 25 Z" />
+      </svg>
       <span
-        className="font-display text-[1.05rem] font-black uppercase leading-none tracking-tight"
-        style={{ color: ink }}
+        className={`font-display text-[1.05rem] font-black uppercase leading-none tracking-tight ${textColor}`}
       >
         Solid<span className="text-flame">Fit</span>
-        <span className="block text-[0.62rem] font-bold uppercase tracking-[0.28em] opacity-70">
+        <span
+          className={`block text-[0.62rem] font-bold uppercase tracking-[0.28em] ${subtleColor}`}
+        >
           Querétaro
         </span>
       </span>

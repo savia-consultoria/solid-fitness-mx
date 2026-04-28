@@ -4,7 +4,7 @@
 
 :root {
   --color-ink: #1a1a2e;
-  --color-flame: #e94560;
+  --color-flame: #39e03a;
   --color-bone: #f5f5f5;
 }
 
@@ -61,6 +61,6 @@ body {
 }
 
 ::selection {
-  background: #e94560;
-  color: #fff;
+  background: #39e03a;
+  color: #1a1a2e;
 }

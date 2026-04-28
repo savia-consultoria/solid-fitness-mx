@@ -135,7 +135,7 @@ export default function Hero() {
             </div>
 
             {/* Floating mini-card */}
-            <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-bone p-4 text-ink shadow-2xl sm:block lg:-left-10">
+            <div className="absolute -top-6 -right-6 hidden rounded-2xl bg-bone p-4 text-ink shadow-2xl sm:block lg:-right-10">
               <div className="flex items-center gap-3">
                 <div className="grid h-12 w-12 place-items-center rounded-xl bg-ink text-bone">
                   <svg viewBox="0 0 24 24" className="h-6 w-6 stroke-flame" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

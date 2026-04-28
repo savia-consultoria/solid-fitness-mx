@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div className="container-x flex h-20 items-center justify-between">
         <a href="#top" className="shrink-0" aria-label="Solid Fitness Mx — Inicio">
-          <Logo />
+          <Logo variant={scrolled ? "dark" : "light"} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Principal">
